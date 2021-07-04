@@ -1,0 +1,270 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+body {
+    background-color: #3a4a58;
+    color: #8c8c8c;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 15px;
+    margin: 0;
+}
+
+.page-header a {
+    text-decoration: none;
+    color: white;
+    background-color: lightslategray;
+    font-family: 'Orelega One', cursive;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.section-header {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+ul {
+    text-align: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    background: slategray;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content {
+    background-color: #ffffff;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+
+
+.header-container {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    
+}
+
+td {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+th {
+    color: #333333;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.header {
+    background-color: #e5e8ed;
+    height: 50px;
+}
+
+.section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.section-about {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+hr {
+    width: 60%;
+    border: 0.5px solid #ccc;
+}
+
+
+.contact {
+    text-align: center;
+  
+}
+
+
+
+.footer-text {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+form {
+    background: lightsteelblue;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    font-family: arial;
+}
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+
+textarea {
+    margin-left: 210px;
+    height:100px;
+}
+
+#submit {
+    font-size: 17px;
+    background-color:darkmagenta;
+    color: white;
+    width: 120px;
+    padding: 12px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+    #submit:hover {
+        cursor: pointer;
+        background-color:darkorchid;
+    }
