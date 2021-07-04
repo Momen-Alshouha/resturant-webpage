@@ -1,2 +1,2 @@
 # HtmlCssResturant
-Only Html&amp;Css Resturant web page.
+Simple and Only Html&amp;Css Resturant web page.
