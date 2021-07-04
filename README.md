@@ -1,2 +1,2 @@
-# HtmlCssResturant
-Simple and Only Html&amp;Css Resturant web page.
+# HtmlCssJsResturantAndCofee
+Simple and Only Html&amp;Css&amp;Some JS ResturantAndCofe web page.
